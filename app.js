@@ -40,13 +40,13 @@ function loadGithubAvatar() {}
 // ── Descriptions personnalisées pour les repos GitHub ────────
 const REPO_DESCRIPTIONS = {
   SystemeRendezVous: 'Application de gestion de rendez-vous en C# : interface desktop WPF et API backend .NET. Architecture en deux couches avec gestion complète des rendez-vous.',
-  AppliFacturation: 'Application console C# de gestion de factures : création de clients, ajout de lignes par catégorie (Informatique, Téléphonie…), calcul HT/TVA/TTC, remises et persistance des données par sérialisation JSON.',
+  ApplicationFacturation: 'Application console C# de gestion de factures : création de clients, ajout de lignes par catégorie (Informatique, Téléphonie…), calcul HT/TVA/TTC, remises et persistance des données par sérialisation JSON.',
   ReservationSalle: 'Application console C# de réservation de salles : 3 types de salles (réunion, formation, auditorium), gestion des créneaux horaires et affichage du planning journalier. Conception orientée objet avec héritage.',
 };
 
 // ── Screenshots par repo (chemin relatif depuis index.html) ──
 const REPO_SCREENSHOTS = {
-  AppliFacturation: 'screenshots/facturation.png',
+  ApplicationFacturation: 'screenshots/facturation.png',
   ReservationSalle: 'screenshots/reservation.png',
   SystemeRendezVous: 'screenshots/rendezvous.png',
 };
@@ -61,11 +61,11 @@ const ALL_PROJECTS = [
     link: 'https://github.com/Housni0/SystemeRendezVous',
   },
   {
-    name: 'AppliFacturation',
+    name: 'ApplicationFacturation',
     description: 'Application console C# de gestion de factures : création de clients, ajout de lignes par catégorie, calcul HT/TVA/TTC, remises et persistance des données par sérialisation JSON.',
     language: 'C#',
     screenshot: 'screenshots/facturation.png',
-    link: 'https://github.com/Housni0/AppliFacturation',
+    link: 'https://github.com/Housni0/ApplicationFacturation',
   },
   {
     name: 'ReservationSalle',
